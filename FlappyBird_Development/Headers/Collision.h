@@ -14,7 +14,7 @@ namespace collision
 
 	bool Collide(bird::bird Bird, SDL_Rect* Pipes, int Npipes)
 	{
-		SDL_Rect BirdCapture = { 310,Bird.Position + 12,30,15 };
+		SDL_Rect BirdCapture = { 312,Bird.Position + 14,26,17 };
 		for (int i = 0; i < Npipes; i++)
 		{
 			SDL_Rect PipeCapture = { Pipes[i].x,Pipes[i].y,Pipes[i].w,Pipes[i].h };
